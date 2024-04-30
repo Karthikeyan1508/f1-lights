@@ -34,9 +34,9 @@ body {
   height: 50px;
 }
 
-.navbar h1 {
+.navbar {
   text-align: center;
-  
+
   font-size: 1.5em;
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 .time {
-  font-size: 75px;
+  font-size: 65px;
   /* font-size: 12vw; */
   line-height: 1;
   margin: 1rem;
@@ -108,7 +108,7 @@ p {
 }
 
 .time.anim {
-  animation: bang 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  animation: bang 0.1s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .best,
